@@ -1,0 +1,19 @@
+import { Component } from '@angular/core';
+import { PortfolioService } from 'src/app/services/portfolio.service';
+
+@Component({
+  selector: 'app-profile',
+  templateUrl: './profile.component.html',
+  styleUrls: ['./profile.component.css']
+})
+export class ProfileComponent {
+  profile:any;
+  constructor (private datosPortfolio:PortfolioService) {}
+
+    ngOnInit(): void {
+      this.datosPortfolio.obtenerDatos().subscribe(data => {
+        console.log(data);
+        this.profile=data;
+      })
+  }
+}

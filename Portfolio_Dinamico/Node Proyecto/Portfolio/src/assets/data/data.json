@@ -1,0 +1,28 @@
+{
+    "name" : "Noelia Diaz",
+    "profession": "Estudiante de programacion",
+    "homeTown" : "Granadero Baigorria",
+    "age" : "27 años",
+    "imageProfile": "./assets/images/foto_perfil.jpg",
+    "image": "./assets/images/argentina_programa.jpg",
+    "banner": "./assets/images/fondo_banner.png",
+    "courseProgrammig": [
+        {
+            "nameTitle": "Programador Web Full Stack Junior",
+            "institution": "Gobierno de la Nacion",
+            "nameCourse": "Argentina Programa",
+            "yearStart": "2022",
+            "yearFinish": "2023",
+            "image": ""
+        }],
+    "highSchool": [
+        {
+            "nameTitle": "Técnica en Informática Profesional y Personal",
+            "institution": "EET N°550 Granadero Baigorria",
+            "yearStart": "2009",
+            "yearFinish": "2014",
+            "image": ""
+        }],
+    "habilities":"",
+    "projects": ""
+}
